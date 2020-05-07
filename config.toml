@@ -88,7 +88,7 @@ disableHugoGeneratorInject = false
     theme = "#252627"
 
   [params.logo]
-    logoText     = "$ cd /home/"
+    logoText     = "Feng Wang/"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
@@ -131,6 +131,12 @@ disableHugoGeneratorInject = false
 
 [menu]
   [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "posts/"
+    weight    = 1
+
+  [[menu.main]]
     identifier = "about"
     name       = "About"
     url        = "about/"
@@ -141,13 +147,7 @@ disableHugoGeneratorInject = false
 #    name       = "Tags"
 #    url        = "tags/"
     
-  [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "posts/"
-    weight    = 1
-    
-  
+
 
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
