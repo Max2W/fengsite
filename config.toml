@@ -131,13 +131,15 @@ disableHugoGeneratorInject = false
 
 [menu]
   [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "posts/"
-  [[menu.main]]
     identifier = "about"
     name       = "About"
     url        = "about/"
+    
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "posts/"
+
 
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
