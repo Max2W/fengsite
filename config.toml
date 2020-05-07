@@ -34,6 +34,12 @@ disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
 
+  [params.logo]
+     url = "logo.jpg" 
+    width = 50
+    height = 50
+    alt = "Logo"
+
 [permalinks]
   posts = "/posts/:year/:month/:title/"
 
@@ -88,7 +94,7 @@ disableHugoGeneratorInject = false
     theme = "#252627"
 
   [params.logo]
-    logoText     = "Feng Wang/"
+    logoText     = "cd /home/"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
