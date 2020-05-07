@@ -134,6 +134,7 @@ disableHugoGeneratorInject = false
     identifier = "about"
     name       = "About"
     url        = "about/"
+    weight    = 2
 
 #  [[menu.main]]
 #    identifier = "tags"
@@ -144,6 +145,7 @@ disableHugoGeneratorInject = false
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
+    weight    = 1
     
   
 
