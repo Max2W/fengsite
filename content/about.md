@@ -9,14 +9,8 @@ date: "2014-04-09"
 title: About
 ---
 
-Hugo is the **world’s fastest framework for building websites**. It is written in Go.
+Hi, I am **Feng Wang (王丰)**, a researcher in RNA biology.
 
-It makes use of a variety of open source projects including:
+My research interests involve the use of cutting-edge sequencing technology to better understand transcriptome, translatome, and proteome in eukaryotic cells; as well as applications of experimental biology tools and models to study RNA mis-splicing and interrogate gene function in human disease and therapy.
 
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
