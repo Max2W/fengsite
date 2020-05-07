@@ -59,7 +59,7 @@ disableHugoGeneratorInject = false
   keywords = ""
   images = [""]
 
-  homeSubtitle = "Savoring the Bitter and the Sweet of Pipetting and Coding"
+  homeSubtitle = "Savoring the Bitter && the Sweet of (Pipetting || Coding)"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = ""
