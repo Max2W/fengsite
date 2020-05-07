@@ -34,12 +34,6 @@ disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
 
-  [params.logo]
-     url = "logo.jpg" 
-    width = 50
-    height = 50
-    alt = "Logo"
-
 [permalinks]
   posts = "/posts/:year/:month/:title/"
 
