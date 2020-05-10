@@ -1,0 +1,35 @@
+---
+title: "Introduction to Tidyverse"
+author: "Feng Wang"
+date: '2020-05-08'
+images: null
+slug: introduction-to-tidyverse
+tags: Tidyverse
+categories: R
+toc: yes
+toc_depth: 6
+toc_float: yes
+draft: true
+---
+
+## Pipes
+Let's start with an example
+
+```{r, echo=TRUE}
+# step by step
+A <- rnorm(n = 50, mean = 0, sd = 10)
+A <- round(A, digits = 0)
+A <- abs(A)
+A
+A <- sort(A)
+A
+diff(A)
+
+# nested functions
+diff(sort(abs(round(rnorm(n = 50, mean = 0, sd = 10)))))
+
+# pipes
+library(tidyverse)
+rnorm(n = 50, mean = 0, sd = 10) %>% round() %>% abs() %>% sort() %>% diff()
+```
+
