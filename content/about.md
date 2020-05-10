@@ -14,7 +14,7 @@ title: About
 
 Hi, I am **Feng Wang (王丰)**, a researcher in RNA biology.
 
-The website is meant to be the go-to place for me to park the various snippets of information I find noteworthy or amusing.
+This website is meant to be the go-to place for me to park the various snippets of information I find noteworthy or amusing.
 
 
 
