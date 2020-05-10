@@ -13,7 +13,6 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
 
 # googleAnalytics = ""
 # disqusShortname = ""
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 archetypeDir = "archetypes"
 contentDir   = "content"
