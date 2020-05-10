@@ -11,8 +11,6 @@ toc: no
 images: ~
 ---
 
-# The graphing philosophy of ggplot2
-
 ```{r echo=FALSE}
 library(tidyverse)
 ```
