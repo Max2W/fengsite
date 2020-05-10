@@ -104,8 +104,12 @@ disableHugoGeneratorInject = false
     url  = "https://twitter.com/"
 
   [[params.social]]
-    name = "email"
-    url  = "mailto:nobody@example.com"
+    name = "instagram"
+    url  = "https://www.instagram.com/fw.ins/"
+
+#  [[params.social]]
+#    name = "email"
+#    url  = "mailto:nobody@example.com"
 
   [[params.social]]
     name = "github"
@@ -114,6 +118,7 @@ disableHugoGeneratorInject = false
   [[params.social]]
     name = "linkedin"
     url  = "https://www.linkedin.com/"
+    
 
 #  [[params.social]]
 #    name = "stackoverflow"

@@ -11,7 +11,7 @@ toc: no
 images: ~
 ---
 
-```{r echo=FALSE}
+```{r message = FALSE}
 library(tidyverse)
 ```
 ```{r echo=TRUE}
