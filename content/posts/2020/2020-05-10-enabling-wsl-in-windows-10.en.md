@@ -20,11 +20,11 @@ categories: []
 
 #### Using PowerShell
 
-      1. Open PowerShell as Administrator and run:
-         `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
-      2. Restart your computer when prompted 
+1. Open PowerShell as Administrator and run:
+`Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
+2. Restart your computer when prompted 
 
-## Installing Ubuntu on WSL via the Microsoft Store (Recommended)
+#### Installing Ubuntu on WSL via the Microsoft Store (Recommended)
 
 1. The following Ubuntu releases are available as apps on the Microsoft Store: 
 
