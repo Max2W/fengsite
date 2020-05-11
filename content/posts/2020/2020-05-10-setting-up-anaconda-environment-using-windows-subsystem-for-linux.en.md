@@ -101,17 +101,17 @@ conda install -c conda-forge jupyter_contrib_nbextensions.
 
 2. Next you’ll be presented by a new tab when you launch your notebooks called “Nbextensions”
 3. Some useful extensions recommended here:
- - Hinterland — For easier auto-correction.
- - Table of Contents (2) — For automatically generating a ToC from your Markdown headings and sub-headings.
- - Toggle all line numbers — For easier debugging.
- - Variable Inspector — For an R-like variable overview, really useful!
- -	ExecuteTime — For timing your cell executions.
- -	Autopep8 — For automatically formatting your code to pep8 standards.
- -	Collapsible Headings — For easy hiding of parts of your notebook.
+    - Hinterland — For easier auto-correction.
+    - Table of Contents (2) — For automatically generating a ToC from your Markdown headings and sub-headings.
+    - Toggle all line numbers — For easier debugging.
+    - Variable Inspector — For an R-like variable overview, really useful!
+    -	ExecuteTime — For timing your cell executions.
+    -	Autopep8 — For automatically formatting your code to pep8 standards.
+    -	Collapsible Headings — For easy hiding of parts of your notebook.
 
 Ref  
-1.[https://towardsdatascience.com/setting-up-a-data-science-environment-using-windows-subsystem-for-linux-wsl-c4b390803dd](https://towardsdatascience.com/setting-up-a-data-science-environment-using-windows-subsystem-for-linux-wsl-c4b390803dd)
-2.[https://towardsdatascience.com/jupyter-notebook-extensions-517fa69d2231](https://towardsdatascience.com/jupyter-notebook-extensions-517fa69d2231)
+1. [https://towardsdatascience.com/setting-up-a-data-science-environment-using-windows-subsystem-for-linux-wsl-c4b390803dd](https://towardsdatascience.com/setting-up-a-data-science-environment-using-windows-subsystem-for-linux-wsl-c4b390803dd)
+2. [https://towardsdatascience.com/jupyter-notebook-extensions-517fa69d2231](https://towardsdatascience.com/jupyter-notebook-extensions-517fa69d2231)
 
 ## Setting up zsh + oh-my-zsh + cmder
 
@@ -137,14 +137,14 @@ fi
 Save (ctrl+Shift+X) and restart WSL shell.
 
 4. Install cmder 
-- Download the latest Mini version at [https://cmder.net/](https://cmder.net/)
-- Extract the archive. Note: This path should not be C:\Program Files or anywhere else that would require Administrator access for modifying configuration files
-- Run Cmder.exe
-- Settings -> Start-up -> Choose Command line ->fill in bash -cur_console:p -> Save settings
+    - Download the latest Mini version at [https://cmder.net/](https://cmder.net/)
+    - Extract the archive. Note: This path should not be C:\Program Files or anywhere else that would require Administrator access for modifying configuration files
+    - Run Cmder.exe
+    - Settings -> Start-up -> Choose Command line ->fill in bash -cur_console:p -> Save settings
 
 5. ”Open Cmder Here” in context menu
-- Set up a new Environment variable CMDER_ROOT to point to the path of your installation C:\Cmder\Cmder.exe.
-- To add an entry in the Windows Explorer context menu to open Cmder in a specific directory, paste this into a OpenCmderHere.reg file and double-click to install it.
+    - Set up a new Environment variable CMDER_ROOT to point to the path of your installation C:\Cmder\Cmder.exe.
+    - To add an entry in the Windows Explorer context menu to open Cmder in a specific directory, paste this into a OpenCmderHere.reg file and double-click to install it.
 
 ```
 Windows Registry Editor Version 5.00
@@ -162,5 +162,4 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\Directory\shell\Cmder\command]
 @="\"C:\\Cmder\\Cmder.exe\" \"%1\""
 ```
-
-- Restart the computer.
+    - Restart the computer.
