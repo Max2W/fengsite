@@ -28,14 +28,10 @@ echo c.NotebookApp.browser = u'/mnt/c/Program\ Files/Mozilla\ Firefox/firefox.ex
 
 #### Setting up extensions for Jupyter Notebook
 
-1. There are conda packages for the notebook extensions and the [jupyter_nbextensions_configurator](https://github.com/Jupyter-contrib/jupyter_nbextensions_configurator) available from [conda-forge](https://conda-forge.org/). You can install both using
-
-```
-conda install -c conda-forge jupyter_contrib_nbextensions.
--- This also automatically installs the Javascript and CSS files (using jupyter contrib nbextension install --sys-prefix), so the second installation step below can therefore be skipped.
-```
+1. There are conda packages for the notebook extensions and the [jupyter_nbextensions_configurator](https://github.com/Jupyter-contrib/jupyter_nbextensions_configurator) available from [conda-forge](https://conda-forge.org/). You can install both using `conda install -c conda-forge jupyter_contrib_nbextensions` This also automatically installs the Javascript and CSS files (using jupyter contrib nbextension install --sys-prefix), so the second installation step below can therefore be skipped.
 
 2. Next you’ll be presented by a new tab when you launch your notebooks called “Nbextensions”
+
 3. Some useful extensions recommended here:
 
     - Hinterland — For easier auto-correction.
