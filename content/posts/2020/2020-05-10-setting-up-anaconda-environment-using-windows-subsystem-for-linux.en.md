@@ -140,6 +140,7 @@ fi
 5. ”Open Cmder Here” in context menu
     - Set up a new Environment variable CMDER_ROOT to point to the path of your installation C:\Cmder\Cmder.exe.
     - To add an entry in the Windows Explorer context menu to open Cmder in a specific directory, paste this into a OpenCmderHere.reg file and double-click to install it.
+
 ```
 Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\Directory\Background\shell\Cmder]
@@ -156,4 +157,5 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\Directory\shell\Cmder\command]
 @="\"C:\\Cmder\\Cmder.exe\" \"%1\""
 ```
+
     - Restart the computer.
