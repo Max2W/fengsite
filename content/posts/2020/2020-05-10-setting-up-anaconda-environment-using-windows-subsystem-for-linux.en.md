@@ -91,12 +91,11 @@ echo c.NotebookApp.browser = u'/mnt/c/Program\ Files/Mozilla\ Firefox/firefox.ex
 #### Setting up extensions for Jupyter Notebook
 
   1. There are conda packages for the notebook extensions and the [jupyter_nbextensions_configurator](https://github.com/Jupyter-contrib/jupyter_nbextensions_configurator) available from [conda-forge](https://conda-forge.org/). You can install both using
-
+  
 ```
 conda install -c conda-forge jupyter_contrib_nbextensions.
 -- This also automatically installs the Javascript and CSS files (using jupyter contrib nbextension install --sys-prefix), so the second installation step below can therefore be skipped.
 ```
-
   2. Next you’ll be presented by a new tab when you launch your notebooks called “Nbextensions”
   3. Some useful extensions recommended here:
     - Hinterland — For easier auto-correction.
@@ -107,13 +106,13 @@ conda install -c conda-forge jupyter_contrib_nbextensions.
     -	Autopep8 — For automatically formatting your code to pep8 standards.
     -	Collapsible Headings — For easy hiding of parts of your notebook.
 
-Ref  
-  1. [https://towardsdatascience.com/setting-up-a-data-science-environment-using-windows-subsystem-for-linux-wsl-c4b390803dd](https://towardsdatascience.com/setting-up-a-data-science-environment-using-windows-subsystem-for-linux-wsl-c4b390803dd)
-  2. [https://towardsdatascience.com/jupyter-notebook-extensions-517fa69d2231](https://towardsdatascience.com/jupyter-notebook-extensions-517fa69d2231)
+Ref
+1. [https://towardsdatascience.com/setting-up-a-data-science-environment-using-windows-subsystem-for-linux-wsl-c4b390803dd](https://towardsdatascience.com/setting-up-a-data-science-environment-using-windows-subsystem-for-linux-wsl-c4b390803dd)
+2. [https://towardsdatascience.com/jupyter-notebook-extensions-517fa69d2231](https://towardsdatascience.com/jupyter-notebook-extensions-517fa69d2231)
 
 ## Setting up zsh + oh-my-zsh + cmder
 
-[1. ] Install zsh; git; oh-my-zsh
+1. Install zsh; git; oh-my-zsh
 
 ```
 sudo apt-get install zsh
@@ -122,7 +121,7 @@ sudo apt-get install git
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
-[2. ] Configure zsh/oh-my-zsh
+2. Configure zsh/oh-my-zsh
 
 ```
 nano ~/.bashrc
@@ -131,16 +130,17 @@ if test -t 1; then
 exec zsh
 fi
 ```
-[3. ] Save (ctrl+Shift+X) and restart WSL shell.
-[4. ] Install cmder 
+3. Save (ctrl+Shift+X) and restart WSL shell.
+4. Install cmder 
     - Download the latest Mini version at [https://cmder.net/](https://cmder.net/)
     - Extract the archive. Note: This path should not be C:\Program Files or anywhere else that would require Administrator access for modifying configuration files
     - Run Cmder.exe
     - Settings -> Start-up -> Choose Command line ->fill in bash -cur_console:p -> Save settings
-[5. ] "Open Cmder Here" in context menu
+5. "Open Cmder Here" in context menu
     - Set up a new Environment variable CMDER_ROOT to point to the path of your installation C:\Cmder\Cmder.exe.
     - To add an entry in the Windows Explorer context menu to open Cmder in a specific directory, paste this into a OpenCmderHere.reg file and double-click to install it.
-    ```
+
+```
 Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\Directory\Background\shell\Cmder]
 @="Open Cmder Here"
@@ -155,5 +155,5 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\Directory\shell\Cmder\command]
 @="\"C:\\Cmder\\Cmder.exe\" \"%1\""
-   ```
+```
     - Restart the computer.
