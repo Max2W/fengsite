@@ -79,6 +79,7 @@ $ ls -al
 #### Jupyter notebook is installed in anaconda by default.
 
 #### Auto launching Jupyter notebook to Windows browser on WSL
+
 1. add to the bottom of /.bashrc: 
 `<alias firefox="/mnt/c/mnt/c/Program\ Files/Mozilla\ Firefox/firefox.exe">`
 2. Disable the file-based redirect method that later versions of Jupyter use to launch notebook windows, in favor of the older, token-based approach. 
@@ -90,6 +91,7 @@ echo c.NotebookApp.browser = u'/mnt/c/Program\ Files/Mozilla\ Firefox/firefox.ex
 ```
 
 #### Setting up extensions for Jupyter Notebook
+
 1. There are conda packages for the notebook extensions and the [jupyter_nbextensions_configurator](https://github.com/Jupyter-contrib/jupyter_nbextensions_configurator) available from [conda-forge](https://conda-forge.org/). You can install both using
 
 ```
@@ -99,13 +101,13 @@ conda install -c conda-forge jupyter_contrib_nbextensions.
 
 2. Next you’ll be presented by a new tab when you launch your notebooks called “Nbextensions”
 3. Some useful extensions recommended here:
-- Hinterland — For easier auto-correction.
-- Table of Contents (2) — For automatically generating a ToC from your Markdown headings and sub-headings.
-- Toggle all line numbers — For easier debugging.
-- Variable Inspector — For an R-like variable overview, really useful!
--	ExecuteTime — For timing your cell executions.
--	Autopep8 — For automatically formatting your code to pep8 standards.
--	Collapsible Headings — For easy hiding of parts of your notebook.
+ - Hinterland — For easier auto-correction.
+ - Table of Contents (2) — For automatically generating a ToC from your Markdown headings and sub-headings.
+ - Toggle all line numbers — For easier debugging.
+ - Variable Inspector — For an R-like variable overview, really useful!
+ -	ExecuteTime — For timing your cell executions.
+ -	Autopep8 — For automatically formatting your code to pep8 standards.
+ -	Collapsible Headings — For easy hiding of parts of your notebook.
 
 Ref  
 1.[https://towardsdatascience.com/setting-up-a-data-science-environment-using-windows-subsystem-for-linux-wsl-c4b390803dd](https://towardsdatascience.com/setting-up-a-data-science-environment-using-windows-subsystem-for-linux-wsl-c4b390803dd)
