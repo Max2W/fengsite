@@ -52,9 +52,9 @@ conda config --add channels conda-forge
 ```
 conda search multiqc
 conda install multiqc(=vesion#)  
-# the latest version is installed unless you set specific version no.
+--the latest version is installed unless you set specific version.
 
-#Or a new environment can be created, e.g. R in anconda
+--Or a new environment can be created, e.g. R in anconda
 conda create -n renv r-essentials r-base
 conda activate renv
 
@@ -87,7 +87,7 @@ echo c.NotebookApp.browser = u'/mnt/c/Program\ Files/Mozilla\ Firefox/firefox.ex
 1. There are conda packages for the notebook extensions and the [jupyter_nbextensions_configurator](https://github.com/Jupyter-contrib/jupyter_nbextensions_configurator) available from [conda-forge](https://conda-forge.org/). You can install both using 
 ```
 conda install -c conda-forge jupyter_contrib_nbextensions.
-# This also automatically installs the Javascript and CSS files (using jupyter contrib nbextension install --sys-prefix), so the second installation step below can therefore be skipped.
+-- This also automatically installs the Javascript and CSS files (using jupyter contrib nbextension install --sys-prefix), so the second installation step below can therefore be skipped.
 ```
 2. Next you’ll be presented by a new tab when you launch your notebooks called “Nbextensions”
 3. Some useful extensions recommended here:
@@ -117,7 +117,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 2. Configure zsh/oh-my-zsh
 ```
 nano ~/.bashrc
-# add the following codes after the first comments:
+--add the following codes after the first comments:
 if test -t 1; then
 exec zsh
 fi
