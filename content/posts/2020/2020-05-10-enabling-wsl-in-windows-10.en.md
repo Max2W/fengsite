@@ -20,7 +20,7 @@ categories: []
 
 #### Using PowerShell
 
-1. Open PowerShell as Administrator and run:
+1. Open PowerShell as Administrator and run:  
    `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
 2. Restart your computer when prompted 
 
