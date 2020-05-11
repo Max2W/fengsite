@@ -48,7 +48,9 @@ conda config --add channels defaults
 conda config --add channels bioconda
 conda config --add channels conda-forge
 ```
+
 7. Install packages：Browse the packages to see what’s available. Bioconda is now enabled, so any packages on the bioconda channel can be installed into the current conda environment:
+
 ```
 conda search multiqc
 conda install multiqc(=vesion#)  
@@ -62,6 +64,7 @@ conda info -e
 conda info --envs
 conda env list
 ```
+
 8. Tips: setting a soft linke between WSL and Windows so that make it easier to transfer data. 
 ```
 $ cd ~
