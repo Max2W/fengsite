@@ -43,14 +43,12 @@ REF： [https://wiki.ubuntu.com/WSL](https://wiki.ubuntu.com/WSL)
   - Add anaconda bin folder to your PATH. e.g. `export PATH=/home/xxx/anaconda3/bin:$PATH` to the bottom of my ~/.bashrc or ~/.zshrc file. 
   - If you don’t want to set global env viables, run `source ~/anaconda3/bin/activate` 
 6. Set up channels：After installing conda you will need to add the bioconda channel as well as the other channels bioconda depends on. **It is important to add them in this order** so that the priority is set correctly (that is, conda-forge is highest priority).
-
 ```
 conda config --add channels defaults
 conda config --add channels bioconda
 conda config --add channels conda-forge
 ```
 7. Install packages：Browse the packages to see what’s available. Bioconda is now enabled, so any packages on the bioconda channel can be installed into the current conda environment:
-
 ```
 conda search multiqc
 conda install multiqc(=vesion#)  
@@ -65,7 +63,6 @@ conda info --envs
 conda env list
 ```
 8. Tips: setting a soft linke between WSL and Windows so that make it easier to transfer data. 
-
 ```
 $ cd ~
 $ ln -s /mnt/c/Users/Username/Desktop .
