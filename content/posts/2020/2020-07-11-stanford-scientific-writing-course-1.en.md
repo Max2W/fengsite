@@ -1,5 +1,5 @@
 ---
-title: 'Stanford Scientific Writing Course #1'
+title: 'Stanford Scientific Writing Course 1'
 author: ''
 date: '2020-07-11'
 slug: stanford-scientific-writing-course-1
