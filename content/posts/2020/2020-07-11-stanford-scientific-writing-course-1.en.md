@@ -13,7 +13,6 @@ images: ~
 
 Stanford Scientific Writing Course by Kristin Sainani
 
-
 ## Introduction            
 
 The goals that I have for you for this course is to get you to rethink your writing process a little bit, help you rethink your approach to writing, and ease some fears that you may have around writing. I'm gonna just jump right in with some key principles of effective writing.
