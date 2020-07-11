@@ -3,7 +3,8 @@ title: 'Stanford Scientific Writing Course #1'
 author: ''
 date: '2020-07-11'
 slug: stanford-scientific-writing-course-1
-categories: []
+categories:
+  - Writing
 tags:
   - Scientific Writing
 comments: no
@@ -178,6 +179,7 @@ For example, ***That*** and ***on*** are often superfluous
 > As we can see from Figure 2, if the return kinetic energy is less than 3.2 Up, there will be two electron trajectories associated with this kinetic energy.
 
 ***Edit:*** The figure 2 shows that a return kinetic energy less than 3.2 Up yields two electron trajectories.
+
 
 
 
