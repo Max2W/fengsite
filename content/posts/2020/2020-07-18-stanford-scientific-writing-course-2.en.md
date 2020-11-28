@@ -61,12 +61,12 @@ Edit:
 
 3. Compared to vs. compared with
 
-   Compare to = to point out similarities between different things
+   - Compare to = to point out similarities between different things
 
-   Compare with = to point out differences between similar things (used more in science)
+   - Compare with = to point out differences between similar things (used more in science)
 
 4. That vs. which
 
-   "That" is the restrictive (defining) pronoun
+   - "That" is the restrictive (defining) pronoun
 
-   "Which" is the nonrestrictive (non-defining) pronoun  
+   - "Which" is the nonrestrictive (non-defining) pronoun  
